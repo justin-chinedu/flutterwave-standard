@@ -1,0 +1,22 @@
+name: example
+description: A flutterwave example project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutterwave_standard:
+    path: "../"
+  cupertino_icons: ^1.0.5
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
