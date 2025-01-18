@@ -22,8 +22,9 @@ class _StandardPaymentWidgetAppState extends State<StandardPaymentWidget>
     browserSettings: InAppBrowserSettings(
       hideTitleBar: false,
       toolbarTopFixedTitle: 'Skrept Checkout',
+      hideDefaultMenuItems: true,
       hideToolbarTop: false,
-      hideUrlBar: false,
+      hideUrlBar: true,
     ),
     webViewSettings: InAppWebViewSettings(javaScriptEnabled: true),
   );
