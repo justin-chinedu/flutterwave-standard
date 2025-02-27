@@ -25,6 +25,8 @@ class _StandardPaymentWidgetAppState extends State<StandardPaymentWidget>
       hideDefaultMenuItems: true,
       hideToolbarTop: false,
       hideUrlBar: true,
+      hideToolbarBottom: true,
+      hideCloseButton: true,
     ),
     webViewSettings: InAppWebViewSettings(javaScriptEnabled: true),
   );
