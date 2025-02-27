@@ -20,7 +20,7 @@ class _StandardPaymentWidgetAppState extends State<StandardPaymentWidget>
     implements TransactionCallBack {
   var options = InAppBrowserClassSettings(
     browserSettings: InAppBrowserSettings(
-      hideTitleBar: true,
+      hideTitleBar: false,
       toolbarTopBackgroundColor: Colors.white,
       toolbarTopFixedTitle: 'Skrept Checkout',
       hideDefaultMenuItems: true,
