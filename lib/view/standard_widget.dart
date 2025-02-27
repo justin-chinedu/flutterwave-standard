@@ -24,7 +24,7 @@ class _StandardPaymentWidgetAppState extends State<StandardPaymentWidget>
       toolbarTopBackgroundColor: Colors.white,
       toolbarTopFixedTitle: 'Skrept Checkout',
       hideDefaultMenuItems: true,
-      hideToolbarTop: true,
+      hideToolbarTop: false,
       hideUrlBar: true,
       hideToolbarBottom: true,
       hideCloseButton: true,
